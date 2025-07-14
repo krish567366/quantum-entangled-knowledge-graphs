@@ -1,0 +1,29 @@
+/* Custom CSS for QE-KGR Documentation */
+
+/* Logo sizing */
+img[alt="QE-KGR Logo"] {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center alignment for logos */
+.logo-center {
+    text-align: center;
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+    img[alt="QE-KGR Logo"] {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+/* Additional spacing around logo */
+.md-typeset img[alt="QE-KGR Logo"] {
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
