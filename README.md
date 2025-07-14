@@ -1,8 +1,8 @@
 # Quantum Entangled Knowledge Graphs (QE-KGR)
 
-[![PyPI version](https://badge.fury.io/py/quantum-entangled-knowledge-graphs.svg)](https://badge.fury.io/py/quantum-entangled-knowledge-graphs)
+[![PyPI version](https://img.shields.io/pypi/v/quantum-entangled-knowledge-graphs.svg)](https://pypi.org/project/quantum-entangled-knowledge-graphs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-github_pages-blue.svg)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub_Pages-blue.svg)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
 
 > 🚀 **World's First Open-Source Library** for quantum-enhanced knowledge graph reasoning using entanglement principles
 
