@@ -1,0 +1,101 @@
+site_name: Quantum Entangled Knowledge Graphs (QE-KGR)
+site_description: World's first open-source library for quantum-enhanced knowledge graph reasoning using entanglement principles
+site_author: Krishna Bajpai
+site_url: https://krish567366.github.io/quantum-entangled-knowledge-graphs/
+
+repo_name: krish567366/quantum-entangled-knowledge-graphs
+repo_url: https://github.com/krish567366/quantum-entangled-knowledge-graphs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: installation.md
+    - Quick Start: quickstart.md
+    - Examples: examples.md
+  - Theory:
+    - Mathematical Foundations: theory.md
+    - Quantum Mechanics: quantum_mechanics.md
+    - Graph Theory: graph_theory.md
+  - API Reference:
+    - Overview: modules.md
+    - Graphs: api/graphs.md
+    - Reasoning: api/reasoning.md
+    - Query Engine: api/query.md
+    - Visualization: api/visualization.md
+  - Tutorials:
+    - Basic Usage: tutorials/basic_usage.md
+    - Advanced Features: tutorials/advanced.md
+    - Custom Algorithms: tutorials/custom.md
+  - Use Cases:
+    - Drug Discovery: use_cases/drug_discovery.md
+    - Scientific Research: use_cases/research.md
+    - Recommendation Systems: use_cases/recommendations.md
+  - Contributing:
+    - Developer Guide: contributing.md
+    - Code Style: code_style.md
+    - Testing: testing.md
+  - About:
+    - License: license.md
+    - Changelog: changelog.md
+    - Contact: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/krish567366
+    - icon: fontawesome/solid/envelope
+      link: mailto:bajpaikrishna715@gmail.com
+
+copyright: Copyright &copy; 2025 Krishna Bajpai
