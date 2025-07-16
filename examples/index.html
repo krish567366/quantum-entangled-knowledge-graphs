@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://krish567366.github.io/quantum-entangled-knowledge-graphs/examples/">
       
       
-        <link rel="prev" href="../quickstart/">
+        <link rel="prev" href="../licensing-quick-ref/">
       
       
         <link rel="next" href="../theory/">
@@ -533,6 +533,29 @@
   
   <span class="md-ellipsis">
     Quick Start
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licensing-quick-ref/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Licensing
     
   </span>
   
@@ -1440,6 +1463,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Licensing Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../changelog/" class="md-nav__link">
         
   
@@ -1644,7 +1690,7 @@
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                              <span class="n">state</span><span class="o">=</span><span class="s2">&quot;researcher&quot;</span><span class="p">,</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                              <span class="n">metadata</span><span class="o">=</span><span class="p">{</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>                                  <span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;quantum_computing&quot;</span><span class="p">,</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                                  <span class="s2">&quot;institution&quot;</span><span class="p">:</span> <span class="s2">&quot;MIT&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                                  <span class="s2">&quot;institution&quot;</span><span class="p">:</span> <span class="s2">&quot;Commercial&quot;</span><span class="p">,</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>                                  <span class="s2">&quot;expertise&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;quantum_algorithms&quot;</span><span class="p">,</span> <span class="s2">&quot;error_correction&quot;</span><span class="p">]</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>                              <span class="p">})</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
@@ -1708,7 +1754,7 @@
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">queries</span> <span class="o">=</span> <span class="p">[</span>
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="s2">&quot;Who might Alice collaborate with on quantum machine learning?&quot;</span><span class="p">,</span>
 <a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="s2">&quot;Find researchers working on quantum neural networks&quot;</span><span class="p">,</span>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="s2">&quot;What connections exist between MIT and Stanford researchers?&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="s2">&quot;What connections exist between Commercial and Stanford researchers?&quot;</span><span class="p">,</span>
 <a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="s2">&quot;Who could mentor students in quantum computing?&quot;</span>
 <a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="p">]</span>
 <a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
@@ -1729,7 +1775,7 @@
 <h2 id="query-chains-with-context-transfer">Query Chains with Context Transfer<a class="headerlink" href="#query-chains-with-context-transfer" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Chain related queries with context transfer</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">query_chain</span> <span class="o">=</span> <span class="p">[</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="s2">&quot;Who works on quantum computing at MIT?&quot;</span><span class="p">,</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="s2">&quot;Who works on quantum computing at Commercial?&quot;</span><span class="p">,</span>
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    <span class="s2">&quot;What machine learning researchers might they collaborate with?&quot;</span><span class="p">,</span> 
 <a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    <span class="s2">&quot;What joint projects could emerge from this collaboration?&quot;</span>
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="p">]</span>
@@ -1878,7 +1924,7 @@
 <a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
 <a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    <span class="c1"># Add researchers from different institutions</span>
 <a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>    <span class="n">researchers</span> <span class="o">=</span> <span class="p">[</span>
-<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>        <span class="p">(</span><span class="s2">&quot;Dr_Smith&quot;</span><span class="p">,</span> <span class="s2">&quot;quantum_cryptography&quot;</span><span class="p">,</span> <span class="s2">&quot;MIT&quot;</span><span class="p">),</span>
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>        <span class="p">(</span><span class="s2">&quot;Dr_Smith&quot;</span><span class="p">,</span> <span class="s2">&quot;quantum_cryptography&quot;</span><span class="p">,</span> <span class="s2">&quot;Commercial&quot;</span><span class="p">),</span>
 <a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>        <span class="p">(</span><span class="s2">&quot;Prof_Johnson&quot;</span><span class="p">,</span> <span class="s2">&quot;quantum_algorithms&quot;</span><span class="p">,</span> <span class="s2">&quot;Stanford&quot;</span><span class="p">),</span> 
 <a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>        <span class="p">(</span><span class="s2">&quot;Dr_Chen&quot;</span><span class="p">,</span> <span class="s2">&quot;quantum_error_correction&quot;</span><span class="p">,</span> <span class="s2">&quot;IBM&quot;</span><span class="p">),</span>
 <a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>        <span class="p">(</span><span class="s2">&quot;Prof_Williams&quot;</span><span class="p">,</span> <span class="s2">&quot;quantum_machine_learning&quot;</span><span class="p">,</span> <span class="s2">&quot;Google&quot;</span><span class="p">),</span>
