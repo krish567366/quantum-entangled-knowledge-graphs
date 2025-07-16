@@ -63,6 +63,7 @@ nav:
   - Getting Started:
     - Installation: installation.md
     - Quick Start: quickstart.md
+    - Licensing: licensing-quick-ref.md
     - Examples: examples.md
   - Theory:
     - Mathematical Foundations: theory.md
@@ -88,6 +89,7 @@ nav:
     - Testing: testing.md
   - About:
     - License: license.md
+    - Licensing Guide: licensing.md
     - Changelog: changelog.md
     - Contact: contact.md
 

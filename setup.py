@@ -23,7 +23,7 @@ def read_requirements():
 
 setup(
     name="quantum-entangled-knowledge-graphs",
-    version="0.1.0",
+    version="1.1.0",
     author="Krishna Bajpai",
     author_email="bajpaikrishna715@gmail.com",
     description="World's first open-source library for quantum-enhanced knowledge graph reasoning using entanglement principles",
@@ -40,13 +40,14 @@ setup(
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
-        "License :: OSI Approved :: MIT License",
+        "License :: Other/Proprietary License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Physics",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -61,6 +62,8 @@ setup(
         "pandas>=1.3.0",
         "scikit-learn>=1.0.0",
         "seaborn>=0.11.0",
+        "quantummeta-license>=1.0.0",
+        "pennylane>=0.28.0",
     ],
     extras_require={
         "quantum": [

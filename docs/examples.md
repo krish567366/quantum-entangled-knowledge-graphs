@@ -16,7 +16,7 @@ alice = graph.add_quantum_node("Alice",
                               state="researcher",
                               metadata={
                                   "field": "quantum_computing",
-                                  "institution": "MIT",
+                                  "institution": "Commercial",
                                   "expertise": ["quantum_algorithms", "error_correction"]
                               })
 
@@ -86,7 +86,7 @@ query_engine = EntangledQueryEngine(graph)
 queries = [
     "Who might Alice collaborate with on quantum machine learning?",
     "Find researchers working on quantum neural networks",
-    "What connections exist between MIT and Stanford researchers?",
+    "What connections exist between Commercial and Stanford researchers?",
     "Who could mentor students in quantum computing?"
 ]
 
@@ -110,7 +110,7 @@ for query in queries:
 ```python
 # Chain related queries with context transfer
 query_chain = [
-    "Who works on quantum computing at MIT?",
+    "Who works on quantum computing at Commercial?",
     "What machine learning researchers might they collaborate with?", 
     "What joint projects could emerge from this collaboration?"
 ]
@@ -277,7 +277,7 @@ def create_collaboration_network():
     
     # Add researchers from different institutions
     researchers = [
-        ("Dr_Smith", "quantum_cryptography", "MIT"),
+        ("Dr_Smith", "quantum_cryptography", "Commercial"),
         ("Prof_Johnson", "quantum_algorithms", "Stanford"), 
         ("Dr_Chen", "quantum_error_correction", "IBM"),
         ("Prof_Williams", "quantum_machine_learning", "Google"),

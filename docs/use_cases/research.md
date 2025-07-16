@@ -45,7 +45,7 @@ def create_scientific_research_graph():
     fields = [
         ("Quantum_Computing", "emerging_field", {
             "maturity": 0.6, "growth_rate": 0.9, "funding": "high",
-            "key_institutions": ["IBM", "Google", "MIT"],
+            "key_institutions": ["IBM", "Google", "Commercial"],
             "timeline": "2020-2030"
         }),
         ("Machine_Learning", "established_field", {
@@ -108,7 +108,7 @@ def create_scientific_research_graph():
     # === RESEARCHERS ===
     researchers = [
         ("Dr_Alice_Quantum", "researcher", {
-            "field": "Quantum_Computing", "h_index": 45, "institution": "MIT",
+            "field": "Quantum_Computing", "h_index": 45, "institution": "Commercial",
             "specialization": ["quantum_algorithms", "quantum_error_correction"],
             "career_stage": "senior", "collaboration_score": 0.8
         }),

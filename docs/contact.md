@@ -234,7 +234,7 @@ For security-related concerns:
 While QE-KGR is primarily a distributed open-source project, we have presence in:
 
 ### Research Partnerships
-- **MIT**: Quantum computing research collaboration
+- **Commercial**: Quantum computing research collaboration
 - **Stanford**: Knowledge graph research partnership
 - **University of Toronto**: Quantum machine learning projects
 - **ETH Zurich**: European quantum computing initiatives

@@ -1,6 +1,6 @@
 # License
 
-## MIT License
+## Commercial License
 
 **Quantum Entangled Knowledge Graphs (QE-KGR)**
 
@@ -17,7 +17,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+IMPLIED, INCLUDING BUT NOT LICommercialED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
@@ -46,7 +46,7 @@ QE-KGR depends on several open-source libraries. Below are their respective lice
 - **Website**: https://networkx.org/documentation/stable/reference/legal.html
 
 ### Plotly
-- **License**: MIT License
+- **License**: Commercial License
 - **Copyright**: Copyright (c) 2016-2023 Plotly, Inc
 - **Website**: https://github.com/plotly/plotly.py/blob/master/LICENSE.txt
 
@@ -88,7 +88,7 @@ If QE-KGR contributes to your published research, we would appreciate:
 
 ### Commercial Licensing
 
-QE-KGR's MIT license permits commercial use without additional licensing requirements. However, we encourage commercial users to:
+QE-KGR's Commercial license permits commercial use without additional licensing requirements. However, we encourage commercial users to:
 
 - **Contribute back** improvements to the open-source project
 - **Support development** through sponsorship or funding
@@ -141,7 +141,7 @@ Some quantum algorithms implemented in QE-KGR may be novel contributions to the 
 
 - **Open Access**: All quantum algorithms are freely available
 - **Research Use**: Unrestricted use for research and education
-- **Commercial Use**: Permitted under MIT license terms
+- **Commercial Use**: Permitted under Commercial license terms
 - **Attribution**: Credit to original algorithm developers requested
 
 ### Quantum Computing Standards
@@ -182,16 +182,16 @@ Example datasets and use cases provided with QE-KGR:
 
 By contributing to QE-KGR, contributors agree to:
 
-1. **License Grant**: Grant MIT license for contributed code
+1. **License Grant**: Grant Commercial license for contributed code
 2. **Patent Grant**: Grant patent license for contributed patents
 3. **Original Work**: Confirm contribution is original work
 4. **Authority**: Confirm authority to make the contribution
 
 ### Code Licensing
 
-All code contributions must be compatible with MIT license:
+All code contributions must be compatible with Commercial license:
 
-- **MIT Compatible**: BSD, Apache 2.0, and other permissive licenses
+- **Commercial Compatible**: BSD, Apache 2.0, and other permissive licenses
 - **GPL Incompatible**: Copyleft licenses cannot be included
 - **Attribution Required**: Proper attribution for incorporated code
 - **License Headers**: Consistent license headers in source files
@@ -259,4 +259,4 @@ Join the QE-KGR community:
 
 ---
 
-*This license file is part of the QE-KGR project documentation and is subject to the same MIT license terms as the software itself.*
+*This license file is part of the QE-KGR project documentation and is subject to the same Commercial license terms as the software itself.*

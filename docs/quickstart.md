@@ -24,7 +24,7 @@ print(f"Created quantum graph with {graph.hilbert_dim}D Hilbert space")
 ```python
 # Add people as quantum nodes
 alice = graph.add_quantum_node("Alice", state="physicist", 
-                              metadata={"institution": "MIT", "field": "quantum_mechanics"})
+                              metadata={"institution": "Commercial", "field": "quantum_mechanics"})
 
 bob = graph.add_quantum_node("Bob", state="engineer",
                             metadata={"institution": "Stanford", "field": "quantum_computing"})

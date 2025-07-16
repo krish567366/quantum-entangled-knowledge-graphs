@@ -5,10 +5,11 @@
   <img src="assest/logo.png" alt="QE-KGR Logo" width="200" height="200">
 </div>
 
-[![PyPI version status badge displaying current package version](https://badge.fury.io/py/quantum-entangled-knowledge-graphs.svg)](https://badge.fury.io/py/quantum-entangled-knowledge-graphs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-github_pages-blue.svg)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI - Version](https://img.shields.io/pypi/v/quantum-entangled-knowledge-graphs?color=purple&label=PyPI&logo=pypi)](https://pypi.org/project/quantum-entangled-knowledge-graphs/)
+[![PyPI Downloads](https://static.pepy.tech/badge/quantum-entangled-knowledge-graphs)](https://pepy.tech/projects/quantum-entangled-knowledge-graphs)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blacksvg)](https://www.python.org/downloads/)
+[![License: Commercial](https://img.shields.io/badge/license-commercial-blueviolet?logo=briefcase)](https://krish567366.github.io/license-server/)
+[![Docs](https://img.shields.io/badge/docs-online-blue?logo=readthedocs)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
 
 ## 🚀 World's First Open-Source Library for Quantum-Enhanced Knowledge Graph Reasoning
 

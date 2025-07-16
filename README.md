@@ -1,8 +1,10 @@
 # Quantum Entangled Knowledge Graphs (QE-KGR)
 
-[![PyPI version](https://img.shields.io/pypi/v/quantum-entangled-knowledge-graphs.svg)](https://pypi.org/project/quantum-entangled-knowledge-graphs/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-GitHub_Pages-blue.svg)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
+[![PyPI - Version](https://img.shields.io/pypi/v/quantum-entangled-knowledge-graphs?color=purple&label=PyPI&logo=pypi)](https://pypi.org/project/quantum-entangled-knowledge-graphs/)
+[![PyPI Downloads](https://static.pepy.tech/badge/quantum-entangled-knowledge-graphs)](https://pepy.tech/projects/quantum-entangled-knowledge-graphs)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blacksvg)](https://www.python.org/downloads/)
+[![License: Commercial](https://img.shields.io/badge/license-commercial-blueviolet?logo=briefcase)](https://krish567366.github.io/license-server/)
+[![Docs](https://img.shields.io/badge/docs-online-blue?logo=readthedocs)](https://krish567366.github.io/quantum-entangled-knowledge-graphs/)
 
 > 🚀 **World's First Open-Source Library** for quantum-enhanced knowledge graph reasoning using entanglement principles
 
@@ -116,13 +118,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📝 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+Commercial License - see [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Krishna Bajpai**
 
-- Email: bajpaikrishna715@gmail.com
+- Email: [bajpaikrishna715@gmail.com](mailto:bajpaikrishna715@gmail.com)
 - GitHub: [@krish567366](https://github.com/krish567366)
 
 ## 🙏 Acknowledgments

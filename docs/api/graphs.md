@@ -121,7 +121,7 @@ Add a quantum node to the graph.
 ```python
 # Add node with string state
 alice = graph.add_quantum_node("Alice", state="physicist", 
-                              metadata={"institution": "MIT"})
+                              metadata={"institution": "Commercial"})
 
 # Add node with custom quantum state  
 custom_state = np.array([0.6, 0.8, 0.0, 0.0])  # Normalized
